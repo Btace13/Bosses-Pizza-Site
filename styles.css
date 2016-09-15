@@ -63,7 +63,7 @@ header {
     height: auto;
     border-top: 1px solid #920400;
     border-radius: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 #main_page section {
     /*border: 1px solid red;*/
@@ -266,8 +266,8 @@ header {
     font-size: 1.6em;
 }
 .details p {
-    margin: 15px;
-    font-size: 15pt;
+    margin: 15px 0;
+    font-size: 12pt;
 }
 .details {
     border-radius: 5px;
@@ -280,9 +280,12 @@ header {
     height: auto;
     width: 95%;
     color: #fff;
-    padding: 15px 35px;
+    padding: 15px 0;
     font-family: sans-serif;
     line-height: 30px;
+}
+#contact {
+    background: black;
 }
 footer {
     display: flex;
@@ -350,5 +353,10 @@ footer {
     .page::before {
         content: "1400px";
         color: red;
+    }
+    .details p {
+        margin: 15px;
+        font-size: 15pt;
+        padding: 0 200px;
     }
 }

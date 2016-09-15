@@ -1,0 +1,331 @@
+font-family: 'Modak', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+html {
+    font-family: 'Baloo Paaji', cursive;
+}
+.page {
+    margin-right: auto;
+    margin-left: auto;
+    background: black;
+}
+header {
+    background: black;
+    height: 400px;
+    width: 100%;
+    background: url(/img/bricks.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header_overlay>img {
+    width: 300px;
+    height: 100%;
+}
+.navbar-inverse {
+    width: 100%;
+    background: #920400;
+    color: #fff;
+    position: fixed;
+}
+.navbar-inverse .navbar-nav>li>a {
+    text-transform: uppercase;
+    font-family: 'Baloo Paaji', cursive;
+    letter-spacing: 1px;
+    font-size: 8pt;
+    color: #fff;
+    font-weight: lighter;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    background: #DD6600;
+}
+.navbar-inverse .navbar-brand {
+    letter-spacing: 2px;
+    font-family: 'Knewave', cursive;
+    color: #fff;
+    text-shadow: 1px 1px 2px #008086;
+}
+.navbar-inverse .navbar-brand:hover {
+    font-size: 1.1em;
+    text-shadow: 2px 2px 4px #008086;
+}
+#main_page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+#main_page section {
+    /*border: 1px solid red;*/
+    height: 250px;
+    width: 100%;
+    flex-basis: 100%;
+}
+.hours {
+    /*background: url(/img/buffet.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;*/
+    background: #924300;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Paaji', cursive;
+    color: #fff;
+    letter-spacing: 1px;
+    flex-direction: column;
+    font-size: 1.2em;
+    text-align: center;
+}
+.location {
+    background: #005458;
+    /*background-repeat: no-repeat;
+    background: url(/img/wood.jpeg);
+    background-attachment: fixed;
+    background-size: contain;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    background: url(/img/bricks.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+.local {
+    margin: 10px;
+    height: 200px;
+    display: flex;
+    width: 95%;
+    flex-basis: 50%;
+}
+#locations section div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info h2 {
+    margin-bottom: 10px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 1.3em;
+}
+.info {
+    border-radius: 0px 5px 5px 0px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #F1F2E6;
+    flex-basis: 50%;
+}
+.pic {
+    border-radius: 5px 0px 0px 5px;
+    flex-basis: 50%;
+}
+.hurst>div.info {
+    background: #007308;
+}
+.keller>div.info {
+    background: #005458;
+}
+.lake_worth>div.info {
+    background: #924300;
+}
+.new_braunfels>div.info {
+    background: #920400;
+}
+.western_center>div.info {
+    background: #007308;
+}
+.temple>div.info {
+    background: #005458;
+}
+.north_richland>div.info {
+    background: #924300;
+}
+.hurst>div.pic {
+    background: url(/img/hurst.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.keller>div.pic {
+    background: url(/img/keller.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lake_worth>div.pic {
+    background: url(/img/lakeworth.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.new_braunfels>div.pic {
+    background: url(/img/newbraunfels.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.western_center>div.pic {
+    background: url(/img/westerncenter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.temple>div.pic {
+    background: url(/img/temple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.north_richland>div.pic {
+    background: url(/img/northrichlands.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+}
+#menu img {
+    max-width: 100%;
+    max-height: 100%
+}
+.menu1 {
+    /*background: url(/img/menu1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;*/
+}
+.menu2 {
+    margin-top: 20px;
+    /*background: url(/img/menu2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;*/
+}
+#franchise {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details h2 {
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #920400;
+    margin-bottom: 10px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 1.6em;
+}
+.details p {
+    margin: 15px;
+    font-size: 10pt;
+}
+.details {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: #005458;
+    height: auto;
+    width: 95%;
+    color: #fff;
+    padding: 15px 35px;
+    font-family: 'Baloo Paaji', cursive;
+    line-height: 30px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #fff;
+    background: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+@media screen and (min-width: 320px) {
+    .page::before {
+        content: "320px";
+        color: green;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-weight: 700;
+        margin: 60px 5px;
+        font-size: 2em;
+    }
+}
+@media screen and (min-width: 480px) {
+    .page::before {
+        content: "480px";
+        color: maroon;
+    }
+}
+@media screen and (min-width: 620px) {
+    .page::before {
+        content: "620px";
+        color: orange;
+    }
+    #main_page section {
+        flex-basis: 50%;
+    }
+    .info {
+        flex-basis: 70%;
+    }
+    .pic {
+        flex-basis: 30%;
+    }
+}
+@media screen and (min-width: 810px) {
+    .page::before {
+        content: "810px";
+        color: orangered;
+    }
+    #locations section {
+        flex-wrap: wrap;
+        flex-basis: 40%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .page::before {
+        content: "1000px";
+        color: red;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        font-size: 12pt;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .page::before {
+        content: "1400px";
+        color: red;
+    }
+}

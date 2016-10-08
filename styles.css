@@ -37,7 +37,7 @@ html {
 }
 .navbar-inverse {
     width: 100%;
-    background: #920400;
+    background: RGB: (146, 4, 0, .6);
     color: #fff;
     position: fixed;
 }
